@@ -1,0 +1,117 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-slid {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.8s ease-in-out;
+}
+
+.left-slid > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.left-slid h1 {
+    font-size: 2.5rem
+}
+
+.right-slid {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform 0.8s ease-in-out;
+}
+
+.buttons-container button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+} 
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 2.2rem;
+}
+#down-btn {
+    transform: translateX(-100%);
+}
+
+#up-btn {
+    transform: translateY(-100%);
+}
+
+.game-one {
+    background-color: #1d1815;
+}
+.game-two {
+    background-color: #4793AF;
+}
+.game-three {
+    background-color: #A0153E;
+}
+.game-four {
+    background-color: #1A2130;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-one {
+    background: url(https://images2.alphacoders.com/597/thumbbig-597965.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-two {
+    background: url(https://images2.alphacoders.com/134/thumbbig-1340251.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-three {
+    background: url(https://images6.alphacoders.com/133/thumb-440-1332395.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-four {
+    background: url(https://images4.alphacoders.com/889/thumbbig-889823.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+  
